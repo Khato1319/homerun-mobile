@@ -5,8 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
+import com.hci.homerun.R
 import com.hci.homerun.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -32,6 +35,14 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
+        val button = binding.textButton
+
+        button.setOnClickListener {
+            val bundle = bundleOf("roomName" to button.text.toString())
+            it.findNavController().navigate(R.id.action_navigation_home_to_roomFragment, bundle)
+        }
+
         return root
     }
 

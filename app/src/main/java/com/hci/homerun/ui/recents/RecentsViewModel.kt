@@ -1,13 +1,13 @@
-package com.hci.homerun.ui.dashboard
+package com.hci.homerun.ui.recents
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class RecentsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is recents Fragment"
     }
     val text: LiveData<String> = _text
 }

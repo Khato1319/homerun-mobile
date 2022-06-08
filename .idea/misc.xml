@@ -5,9 +5,13 @@
       <map>
         <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/drawable/ic_recents_black_24dp.xml" value="0.1785" />
         <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/drawable/icon.xml" value="0.1785" />
-        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/drawable/rounded_corner.xml" value="0.1785" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/font/main_font.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/fragment_dashboard.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/fragment_home.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/fragment_notifications.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/layout/fragment_room.xml" value="0.1" />
         <entry key="..\:/Users/khcat/StudioProjects/HomeRun/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
       </map>
     </option>
